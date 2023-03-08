@@ -18,7 +18,7 @@ contract Token {
     address public owner;
 
     // A mapping is a key/value map. Here we store each account's balance.
-    mapping(address => uint256) balances;
+    mapping(address => uint256) balances;  
 
     // The Transfer event helps off-chain applications understand
     // what happens within your contract.
